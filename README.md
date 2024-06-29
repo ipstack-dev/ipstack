@@ -20,4 +20,4 @@ Having a pure Java implementation of the TCP/IP stack can be used in different u
 
 - Virtualization of Java applications by running the applications on top of a networking layer running at user space and independent from the networking layer of the actual platform where the application is running on; the application can be interact with external application by exploiting one of the ipstack connectors on the hosting machine or on a remote machine; in the latter case proper ipstack virtual nodes (switches or routers) can be used to create a iptack virtual network overlay spanning two or more physical machines.
 
-- Network emulation; an example is [NEMO]((https://netsec.unipr.it)). a description of NEMO can be foud is this [paper](https://www.sciencedirect.com/science/article/pii/S2352711019300135).
+- Network emulation; an example is [NEMO]((https://netsec.unipr.it/project/nemo)). A description of NEMO can be foud is this [paper](https://www.sciencedirect.com/science/article/pii/S2352711019300135).
