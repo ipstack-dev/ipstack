@@ -17,20 +17,20 @@
  * Luca Veltri (luca.veltri@unipr.it)
  */
 
-package io.ipstack.net.routing;
+package io.ipstack.net.packet;
 
 
-import io.ipstack.net.base.Address;
-import io.ipstack.net.base.Packet;
 
-
-/** Routing function.
- * It gets the route toward a given destination.
+/** It listens for incoming packet.
+ * @param <A> the address type
+ * @param <P> the packet type
  */
-public interface RoutingFunction<A extends Address, P extends Packet<A>> {
+@FunctionalInterface
+public interface NetInterfaceListener<A extends Address, P extends Packet<A>> {
 
-	/** Gets the route for a given destination address.
-	 * @param dest_addr the destination address
-	 * @return the route */
-	public Route<A,P> getRoute(A dest_addr);
+	/** When a new packet is received.
+	 * @param ni the network interface that received the packet
+	 * @param pkt the packet */
+	public void onIncomingPacket(NetInterface<A,P> ni, P pkt);
+	
 }

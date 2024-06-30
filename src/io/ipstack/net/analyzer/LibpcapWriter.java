@@ -7,7 +7,7 @@ import java.io.OutputStream;
 
 import org.zoolu.util.Clock;
 
-import io.ipstack.net.base.Packet;
+import io.ipstack.net.packet.Packet;
 
 
 /** Libpcap file writer.

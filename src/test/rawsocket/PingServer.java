@@ -31,7 +31,6 @@ import org.zoolu.util.log.DefaultLogger;
 import org.zoolu.util.log.LoggerLevel;
 import org.zoolu.util.log.WriterLogger;
 
-import io.ipstack.net.base.Address;
 import io.ipstack.net.ethernet.EthAddress;
 import io.ipstack.net.ethernet.EthLayer;
 import io.ipstack.net.icmp4.IcmpLayer;
@@ -44,6 +43,7 @@ import io.ipstack.net.ip6.Ip6Address;
 import io.ipstack.net.ip6.Ip6AddressPrefix;
 import io.ipstack.net.ip6.Ip6EthInterface;
 import io.ipstack.net.ip6.Ip6Layer;
+import io.ipstack.net.packet.Address;
 import io.ipstack.net.rawsocket.ethernet.RawEthInterface;
 
 

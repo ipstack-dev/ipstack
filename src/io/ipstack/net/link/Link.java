@@ -23,9 +23,9 @@ import org.zoolu.util.ArrayUtils;
 import org.zoolu.util.log.DefaultLogger;
 import org.zoolu.util.log.LoggerLevel;
 
-import io.ipstack.net.base.Address;
-import io.ipstack.net.base.NetInterface;
-import io.ipstack.net.base.Packet;
+import io.ipstack.net.packet.Address;
+import io.ipstack.net.packet.NetInterface;
+import io.ipstack.net.packet.Packet;
 
 import java.util.ArrayList;
 import java.util.concurrent.locks.ReadWriteLock;

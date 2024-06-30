@@ -22,9 +22,9 @@ package io.ipstack.net.icmp4;
 
 import org.zoolu.util.Bytes;
 
-import io.ipstack.net.base.Packet;
 import io.ipstack.net.ip4.Ip4Address;
 import io.ipstack.net.ip4.Ip4Packet;
+import io.ipstack.net.packet.Packet;
 import io.ipstack.net.util.Checksum;
 
 

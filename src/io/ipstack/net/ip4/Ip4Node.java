@@ -25,23 +25,23 @@ import java.util.List;
 import org.zoolu.util.log.DefaultLogger;
 import org.zoolu.util.log.LoggerLevel;
 
-import io.ipstack.net.base.LoopbackInterface;
-import io.ipstack.net.base.NetInterface;
-import io.ipstack.net.base.Node;
 import io.ipstack.net.icmp4.IcmpMessage;
 import io.ipstack.net.icmp4.message.IcmpDestinationUnreachableMessage;
 import io.ipstack.net.icmp4.message.IcmpEchoReplyMessage;
 import io.ipstack.net.icmp4.message.IcmpEchoRequestMessage;
 import io.ipstack.net.icmp4.message.IcmpTimeExceededMessage;
-import io.ipstack.net.routing.Route;
-import io.ipstack.net.routing.RoutingTable;
+import io.ipstack.net.packet.LoopbackInterface;
+import io.ipstack.net.packet.NetInterface;
+import io.ipstack.net.packet.Node;
+import io.ipstack.net.packet.Route;
+import io.ipstack.net.packet.RoutingTable;
 
 
 /** IPv4 node.
  * It includes ICMP support and IP routing function.
  * <p>
  * A routing table is automatically created based on the directly connected links and corresponding IP prefixes.
- * Use method {@link #getRoutingTable()} and method {@link io.ipstack.net.routing.RoutingTable#add(Route)} to add more routing entries.
+ * Use method {@link #getRoutingTable()} and method {@link io.ipstack.net.packet.RoutingTable#add(Route)} to add more routing entries.
  * <p>
  * Ip4Node can act as either a router or host, depending whether <i>IP forwarding</i> is enabled or not.
  * Use method {@link #setForwarding(boolean)} to enable IP forwarding function.

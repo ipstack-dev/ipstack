@@ -25,11 +25,11 @@ import java.net.SocketException;
 import org.zoolu.util.log.DefaultLogger;
 import org.zoolu.util.log.LoggerLevel;
 
-import io.ipstack.net.base.Address;
-import io.ipstack.net.base.NetInterface;
-import io.ipstack.net.base.NetInterfaceListener;
 import io.ipstack.net.ethernet.EthAddress;
 import io.ipstack.net.ethernet.EthPacket;
+import io.ipstack.net.packet.Address;
+import io.ipstack.net.packet.NetInterface;
+import io.ipstack.net.packet.NetInterfaceListener;
 import io.ipstack.net.rawsocket.RawLinkSocket;
 import io.ipstack.net.util.PacketUtils;
 

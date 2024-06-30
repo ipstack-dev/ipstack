@@ -23,10 +23,10 @@ package io.ipstack.net.stack;
 import java.io.IOException;
 import java.util.ArrayList;
 
-import io.ipstack.net.base.Address;
-import io.ipstack.net.base.NetInterface;
-import io.ipstack.net.base.Packet;
-import io.ipstack.net.routing.Route;
+import io.ipstack.net.packet.Address;
+import io.ipstack.net.packet.NetInterface;
+import io.ipstack.net.packet.Packet;
+import io.ipstack.net.packet.Route;
 
 
 public interface NetConfiguration<A extends Address, P extends Packet<A>> {

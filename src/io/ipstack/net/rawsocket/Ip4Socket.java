@@ -20,8 +20,8 @@
 package io.ipstack.net.rawsocket;
 
 
-import io.ipstack.net.base.DataPacket;
 import io.ipstack.net.ip4.Ip4Packet;
+import io.ipstack.net.packet.DataPacket;
 
 
 /** It implements an IPv4 socket for sending and receiving IPv4 packets. 

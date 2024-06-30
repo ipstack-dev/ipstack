@@ -22,7 +22,7 @@ package io.ipstack.net.ethernet;
 
 import org.zoolu.util.Bytes;
 
-import io.ipstack.net.base.DataPacket;
+import io.ipstack.net.packet.DataPacket;
 
 
 /** An Ethernet packet (IEEE 802.3).

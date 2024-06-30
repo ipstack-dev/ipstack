@@ -27,10 +27,10 @@ import java.util.List;
 import org.zoolu.util.log.DefaultLogger;
 import org.zoolu.util.log.LoggerLevel;
 
-import io.ipstack.net.base.NetInterface;
 import io.ipstack.net.icmp4.IcmpLayer;
 import io.ipstack.net.icmp4.message.IcmpDestinationUnreachableMessage;
-import io.ipstack.net.routing.RoutingTable;
+import io.ipstack.net.packet.NetInterface;
+import io.ipstack.net.packet.RoutingTable;
 
 
 /** IPv4 layer provides standard IPv4 service to upper layers.

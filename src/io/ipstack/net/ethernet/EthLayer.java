@@ -22,10 +22,10 @@ package io.ipstack.net.ethernet;
 import org.zoolu.util.log.DefaultLogger;
 import org.zoolu.util.log.LoggerLevel;
 
-import io.ipstack.net.base.Layer;
-import io.ipstack.net.base.LayerListener;
-import io.ipstack.net.base.NetInterface;
-import io.ipstack.net.base.NetInterfaceListener;
+import io.ipstack.net.packet.Layer;
+import io.ipstack.net.packet.LayerListener;
+import io.ipstack.net.packet.NetInterface;
+import io.ipstack.net.packet.NetInterfaceListener;
 
 
 /** Ethernet layer for sending or receiving Ethernet packets through an Ethernet interface.

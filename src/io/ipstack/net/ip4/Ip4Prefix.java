@@ -24,7 +24,7 @@ import java.util.Arrays;
 
 import org.zoolu.util.Bytes;
 
-import io.ipstack.net.base.Address;
+import io.ipstack.net.packet.Address;
 import io.ipstack.net.util.IpAddressUtils;
 
 

@@ -17,16 +17,13 @@
  * Luca Veltri (luca.veltri@unipr.it)
  */
 
-package io.ipstack.net.base;
+package io.ipstack.net.packet;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import org.zoolu.util.log.DefaultLogger;
 import org.zoolu.util.log.LoggerLevel;
-
-import io.ipstack.net.routing.Route;
-import io.ipstack.net.routing.RoutingFunction;
 
 
 /** A generic network node.

@@ -27,8 +27,6 @@ import org.zoolu.util.Clock;
 import org.zoolu.util.DateFormat;
 
 import io.ipstack.net.arp.ArpPacket;
-import io.ipstack.net.base.Address;
-import io.ipstack.net.base.Packet;
 import io.ipstack.net.ethernet.EthPacket;
 import io.ipstack.net.icmp4.IcmpMessage;
 import io.ipstack.net.icmp4.message.IcmpDestinationUnreachableMessage;
@@ -50,6 +48,8 @@ import io.ipstack.net.icmp6.message.Icmp6TimeExceededMessage;
 import io.ipstack.net.ip4.Ip4Packet;
 import io.ipstack.net.ip4.IpAddress;
 import io.ipstack.net.ip6.Ip6Packet;
+import io.ipstack.net.packet.Address;
+import io.ipstack.net.packet.Packet;
 import io.ipstack.net.ppp.PppEncapsulation;
 import io.ipstack.net.slip.SlipPacket;
 import io.ipstack.net.tcp.TcpPacket;

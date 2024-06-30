@@ -22,9 +22,9 @@ package io.ipstack.net.icmp6;
 
 import org.zoolu.util.Bytes;
 
-import io.ipstack.net.base.Packet;
 import io.ipstack.net.ip6.Ip6Address;
 import io.ipstack.net.ip6.Ip6Packet;
+import io.ipstack.net.packet.Packet;
 import io.ipstack.net.util.Checksum;
 
 

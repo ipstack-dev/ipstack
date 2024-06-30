@@ -3,9 +3,9 @@ package io.ipstack.net.ethernet;
 
 import java.util.List;
 
-import io.ipstack.net.base.NetInterface;
 import io.ipstack.net.link.Link;
 import io.ipstack.net.link.Repeater;
+import io.ipstack.net.packet.NetInterface;
 
 
 /* Ethernet hub.

@@ -25,7 +25,6 @@ import org.zoolu.util.Bytes;
 import org.zoolu.util.log.DefaultLogger;
 import org.zoolu.util.log.LoggerLevel;
 
-import io.ipstack.net.base.DataPacket;
 import io.ipstack.net.ethernet.EthPacket;
 import io.ipstack.net.ip4.IpPacketConstants;
 import io.ipstack.net.ip6.exthdr.DestinationOptionsHeader;
@@ -33,6 +32,7 @@ import io.ipstack.net.ip6.exthdr.ExtensionHeader;
 import io.ipstack.net.ip6.exthdr.FragmentHeader;
 import io.ipstack.net.ip6.exthdr.HopByHopOptionsHeader;
 import io.ipstack.net.ip6.exthdr.RoutingHeader;
+import io.ipstack.net.packet.DataPacket;
 
 
 /** Internet Protocol version 6 (IPv6) packet (RFC 2460).

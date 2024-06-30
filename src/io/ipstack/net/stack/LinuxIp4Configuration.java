@@ -28,7 +28,6 @@ import java.util.HashMap;
 import org.zoolu.util.log.DefaultLogger;
 import org.zoolu.util.log.LoggerLevel;
 
-import io.ipstack.net.base.NetInterface;
 import io.ipstack.net.ethernet.EthAddress;
 import io.ipstack.net.ethernet.EthHub;
 import io.ipstack.net.ethernet.EthPacket;
@@ -42,7 +41,8 @@ import io.ipstack.net.ip4.Ip4Prefix;
 import io.ipstack.net.ip4.SocketAddress;
 import io.ipstack.net.link.Link;
 import io.ipstack.net.link.LinkInterface;
-import io.ipstack.net.routing.Route;
+import io.ipstack.net.packet.NetInterface;
+import io.ipstack.net.packet.Route;
 import io.ipstack.net.tuntap.Ip4TunInterface;
 import io.ipstack.net.tuntap.TapInterface;
 

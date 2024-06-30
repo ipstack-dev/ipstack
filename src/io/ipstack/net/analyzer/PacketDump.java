@@ -3,7 +3,7 @@ package io.ipstack.net.analyzer;
 
 import org.zoolu.util.DateFormat;
 
-import io.ipstack.net.base.Packet;
+import io.ipstack.net.packet.Packet;
 
 
 /** A packet with its timestamp.

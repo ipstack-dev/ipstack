@@ -9,7 +9,6 @@ import org.zoolu.util.log.WriterLogger;
 
 import io.ipstack.net.analyzer.LibpcapHeader;
 import io.ipstack.net.analyzer.LibpcapWriter;
-import io.ipstack.net.base.NetInterface;
 import io.ipstack.net.ethernet.EthAddress;
 import io.ipstack.net.ethernet.EthHub;
 import io.ipstack.net.ethernet.EthPacket;
@@ -17,6 +16,7 @@ import io.ipstack.net.ethernet.EthTunnelHub;
 import io.ipstack.net.ethernet.EthTunnelInterface;
 import io.ipstack.net.ethernet.EthTunnelSwitch;
 import io.ipstack.net.ip4.SocketAddress;
+import io.ipstack.net.packet.NetInterface;
 import io.ipstack.net.tuntap.TapInterface;
 
 

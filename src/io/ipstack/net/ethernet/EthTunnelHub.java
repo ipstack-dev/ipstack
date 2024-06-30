@@ -28,9 +28,9 @@ import java.util.ArrayList;
 import org.zoolu.util.log.DefaultLogger;
 import org.zoolu.util.log.LoggerLevel;
 
-import io.ipstack.net.base.NetInterfaceListener;
 import io.ipstack.net.ip4.Ip4Address;
 import io.ipstack.net.ip4.SocketAddress;
+import io.ipstack.net.packet.NetInterfaceListener;
 
 
 /** Hub that interconnects a set of Ethernet over UDP tunnels.

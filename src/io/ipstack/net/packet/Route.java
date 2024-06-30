@@ -17,14 +17,8 @@
  * Luca Veltri (luca.veltri@unipr.it)
  */
 
-package io.ipstack.net.routing;
+package io.ipstack.net.packet;
 
-
-import java.util.Arrays;
-
-import io.ipstack.net.base.Address;
-import io.ipstack.net.base.NetInterface;
-import io.ipstack.net.base.Packet;
 
 
 /** An entry of a Routing Table.

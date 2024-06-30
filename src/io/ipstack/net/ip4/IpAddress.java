@@ -22,7 +22,7 @@ package io.ipstack.net.ip4;
 
 import java.net.InetAddress;
 
-import io.ipstack.net.base.Address;
+import io.ipstack.net.packet.Address;
 
 
 /** IP address.

@@ -2,7 +2,7 @@ package io.ipstack.net.util;
 
 
 import io.ipstack.net.analyzer.ProtocolAnalyzer;
-import io.ipstack.net.base.Packet;
+import io.ipstack.net.packet.Packet;
 
 
 public abstract class PacketUtils {

@@ -28,10 +28,10 @@ import org.zoolu.util.ArrayUtils;
 import org.zoolu.util.log.DefaultLogger;
 import org.zoolu.util.log.LoggerLevel;
 
-import io.ipstack.net.base.NetInterface;
 import io.ipstack.net.icmp6.Icmp6Layer;
 import io.ipstack.net.icmp6.message.Icmp6DestinationUnreachableMessage;
-import io.ipstack.net.routing.RoutingTable;
+import io.ipstack.net.packet.NetInterface;
+import io.ipstack.net.packet.RoutingTable;
 
 
 /** IPv6 layer provides standard IPv6 service to upper layers.

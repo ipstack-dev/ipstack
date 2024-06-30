@@ -25,12 +25,12 @@ import org.zoolu.util.TimerListener;
 import org.zoolu.util.log.DefaultLogger;
 import org.zoolu.util.log.LoggerLevel;
 
-import io.ipstack.net.base.Layer;
-import io.ipstack.net.base.LayerListener;
 import io.ipstack.net.ethernet.EthAddress;
 import io.ipstack.net.ethernet.EthMulticastAddress;
 import io.ipstack.net.ip4.Ip4Address;
 import io.ipstack.net.ip4.Ip4AddressPrefix;
+import io.ipstack.net.packet.Layer;
+import io.ipstack.net.packet.LayerListener;
 
 import java.util.Enumeration;
 import java.util.HashSet;

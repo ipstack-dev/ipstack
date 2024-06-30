@@ -24,10 +24,10 @@ import java.util.Arrays;
 
 import org.zoolu.util.Bytes;
 
-import io.ipstack.net.base.Packet;
 import io.ipstack.net.ethernet.EthAddress;
 import io.ipstack.net.ethernet.EthPacket;
 import io.ipstack.net.ip4.Ip4Address;
+import io.ipstack.net.packet.Packet;
 
 
 /** Address Resolution Protocol (ARP) packet.

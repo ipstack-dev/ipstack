@@ -23,12 +23,12 @@ package io.ipstack.net.tuntap;
 import java.io.IOException;
 import java.util.ArrayList;
 
-import io.ipstack.net.base.NetInterface;
-import io.ipstack.net.base.NetInterfaceListener;
 import io.ipstack.net.ethernet.EthAddress;
 import io.ipstack.net.ip4.Ip4Address;
 import io.ipstack.net.ip4.Ip4AddressPrefix;
 import io.ipstack.net.ip4.Ip4Packet;
+import io.ipstack.net.packet.NetInterface;
+import io.ipstack.net.packet.NetInterfaceListener;
 
 
 /** IPv4 interface for sending and receiving IPv4 packets through an underling TUN/TAP interface.

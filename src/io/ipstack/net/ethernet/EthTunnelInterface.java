@@ -27,10 +27,10 @@ import java.net.SocketException;
 import org.zoolu.util.log.DefaultLogger;
 import org.zoolu.util.log.LoggerLevel;
 
-import io.ipstack.net.base.NetInterface;
-import io.ipstack.net.base.NetInterfaceListener;
 import io.ipstack.net.ip4.Ip4Address;
 import io.ipstack.net.ip4.SocketAddress;
+import io.ipstack.net.packet.NetInterface;
+import io.ipstack.net.packet.NetInterfaceListener;
 import io.ipstack.net.socket.DatagramSocket;
 import io.ipstack.net.socket.JavanetDatagramSocket;
 

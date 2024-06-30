@@ -1,9 +1,9 @@
 package io.ipstack.net.ip4;
 
 
-import io.ipstack.net.base.Packet;
-import io.ipstack.net.routing.Route;
-import io.ipstack.net.routing.RoutingTable;
+import io.ipstack.net.packet.Packet;
+import io.ipstack.net.packet.Route;
+import io.ipstack.net.packet.RoutingTable;
 
 
 /** IP routing-table with longest-prefix matching.

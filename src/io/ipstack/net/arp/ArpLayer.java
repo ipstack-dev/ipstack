@@ -22,11 +22,11 @@ package io.ipstack.net.arp;
 import org.zoolu.util.log.DefaultLogger;
 import org.zoolu.util.log.LoggerLevel;
 
-import io.ipstack.net.base.Layer;
-import io.ipstack.net.base.LayerListener;
 import io.ipstack.net.ethernet.EthAddress;
 import io.ipstack.net.ethernet.EthLayer;
 import io.ipstack.net.ethernet.EthPacket;
+import io.ipstack.net.packet.Layer;
+import io.ipstack.net.packet.LayerListener;
 
 
 

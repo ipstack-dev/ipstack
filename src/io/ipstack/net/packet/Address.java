@@ -17,18 +17,31 @@
  * Luca Veltri (luca.veltri@unipr.it)
  */
 
-package io.ipstack.net.base;
+package io.ipstack.net.packet;
 
 
+import java.io.Serializable;
 
-/** Generic network address.
+
+/** Generic address.
  */
-public interface NetAddress extends Address {
+public interface Address extends Serializable {
 
-	/** Whether a given address matches (belongs to) this network address.
-	 * @param addr the address
-	 * @return <i>true</i> if the given address belongs to this network address; <i>false</i> otherwise */
-	public boolean contains(Address addr);
+	/** Gets the address length.
+	 * @return the number of bytes the form this address */
+	//public int length();
+
+	
+	/** Gets the address as byte array.
+	 * @return the byte array containing the address */
+	public byte[] getBytes();
+
+	
+	/** Gets the address as byte array.
+	 * @param buf the byte array where the address is going to be written
+	 * @param off the offset within the buffer
+	 * @return the number of bytes */
+	public int getBytes(byte[] buf, int off);
 
 	
 	@Override
@@ -41,4 +54,5 @@ public interface NetAddress extends Address {
 	
 	@Override
 	public String toString();
+
 }

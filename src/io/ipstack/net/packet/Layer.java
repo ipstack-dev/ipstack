@@ -17,7 +17,7 @@
  * Luca Veltri (luca.veltri@unipr.it)
  */
 
-package io.ipstack.net.base;
+package io.ipstack.net.packet;
 
 import java.util.HashMap;
 

@@ -17,18 +17,15 @@
  * Luca Veltri (luca.veltri@unipr.it)
  */
 
-package io.ipstack.net.routing;
-
+package io.ipstack.net.packet;
 
 import java.util.ArrayList;
 
-import io.ipstack.net.base.Address;
-import io.ipstack.net.base.NetAddress;
-import io.ipstack.net.base.Packet;
-
 
 /** Routing Table.
- */
+  * {@link RoutingFunction Routing function} based on a list of routes.
+  * Each route is formed by a possible destination address, an output interface, and the address of the next hop.
+  */
 public class RoutingTable<A extends Address, P extends Packet<A>> implements RoutingFunction<A,P> {
 
 	/** Table */

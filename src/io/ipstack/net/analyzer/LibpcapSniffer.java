@@ -3,9 +3,6 @@ package io.ipstack.net.analyzer;
 
 import java.io.IOException;
 
-import io.ipstack.net.base.Address;
-import io.ipstack.net.base.NetInterface;
-import io.ipstack.net.base.Packet;
 import io.ipstack.net.ethernet.EthAddress;
 import io.ipstack.net.ip4.Ip4Address;
 import io.ipstack.net.ip4.Ip4EthInterface;
@@ -13,6 +10,9 @@ import io.ipstack.net.ip6.Ip6Address;
 import io.ipstack.net.ip6.Ip6EthInterface;
 import io.ipstack.net.link.Link;
 import io.ipstack.net.link.PromiscuousLinkInterface;
+import io.ipstack.net.packet.Address;
+import io.ipstack.net.packet.NetInterface;
+import io.ipstack.net.packet.Packet;
 import io.ipstack.net.rawsocket.ethernet.RawEthInterface;
 
 

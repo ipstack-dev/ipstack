@@ -7,7 +7,6 @@ import java.util.HashSet;
 import org.zoolu.util.log.DefaultLogger;
 import org.zoolu.util.log.LoggerLevel;
 
-import io.ipstack.net.base.NetInterface;
 import io.ipstack.net.icmp4.IcmpMessage;
 import io.ipstack.net.icmp4.message.IcmpEchoReplyMessage;
 import io.ipstack.net.icmp4.message.IcmpEchoRequestMessage;
@@ -17,6 +16,7 @@ import io.ipstack.net.ip4.Ip4Packet;
 import io.ipstack.net.ip4.Ip4Prefix;
 import io.ipstack.net.ip4.SocketAddress;
 import io.ipstack.net.ip4.TransportPacket;
+import io.ipstack.net.packet.NetInterface;
 import io.ipstack.net.tcp.TcpPacket;
 import io.ipstack.net.udp.UdpPacket;
 import io.ipstack.net.util.PacketUtils;

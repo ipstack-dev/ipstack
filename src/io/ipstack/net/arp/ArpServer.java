@@ -24,10 +24,10 @@ import java.util.HashSet;
 import org.zoolu.util.log.DefaultLogger;
 import org.zoolu.util.log.LoggerLevel;
 
-import io.ipstack.net.base.Layer;
-import io.ipstack.net.base.LayerListener;
 import io.ipstack.net.ethernet.EthAddress;
 import io.ipstack.net.ip4.Ip4Address;
+import io.ipstack.net.packet.Layer;
+import io.ipstack.net.packet.LayerListener;
 
 
 /** ARP server.

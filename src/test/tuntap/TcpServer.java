@@ -26,12 +26,12 @@ import org.zoolu.util.log.DefaultLogger;
 import org.zoolu.util.log.LoggerLevel;
 import org.zoolu.util.log.WriterLogger;
 
-import io.ipstack.net.base.NetInterface;
 import io.ipstack.net.ip4.Ip4Address;
 import io.ipstack.net.ip4.Ip4AddressPrefix;
 import io.ipstack.net.ip4.Ip4Layer;
 import io.ipstack.net.ip4.Ip4Packet;
 import io.ipstack.net.ip4.Ip4Prefix;
+import io.ipstack.net.packet.NetInterface;
 import io.ipstack.net.stack.LossyIpInterface;
 import io.ipstack.net.tcp.TcpConnection;
 import io.ipstack.net.tcp.TcpConnectionListener;

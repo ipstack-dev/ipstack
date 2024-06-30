@@ -22,8 +22,8 @@ package io.ipstack.net.ppp;
 
 import org.zoolu.util.Bytes;
 
-import io.ipstack.net.base.Address;
-import io.ipstack.net.base.DataPacket;
+import io.ipstack.net.packet.Address;
+import io.ipstack.net.packet.DataPacket;
 
 
 /** Point-to-Point Protocol (PPP) encapsulation.

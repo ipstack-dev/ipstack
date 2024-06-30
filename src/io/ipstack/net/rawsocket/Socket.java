@@ -24,12 +24,12 @@ import java.net.SocketException;
 
 import org.zoolu.util.SystemUtils;
 
-import io.ipstack.net.base.Address;
-import io.ipstack.net.base.DataPacket;
 import io.ipstack.net.ethernet.EthAddress;
 import io.ipstack.net.ip4.Ip4Address;
 import io.ipstack.net.ip4.IpAddress;
 import io.ipstack.net.ip6.Ip6Address;
+import io.ipstack.net.packet.Address;
+import io.ipstack.net.packet.DataPacket;
 import io.ipstack.net.tcp.TcpPacket;
 import io.ipstack.net.udp.UdpPacket;
 

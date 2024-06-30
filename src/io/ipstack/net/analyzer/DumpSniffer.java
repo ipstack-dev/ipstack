@@ -4,12 +4,12 @@ package io.ipstack.net.analyzer;
 import java.io.IOException;
 import java.io.PrintStream;
 
-import io.ipstack.net.base.Address;
-import io.ipstack.net.base.NetInterface;
-import io.ipstack.net.base.NetInterfaceListener;
-import io.ipstack.net.base.Packet;
 import io.ipstack.net.link.Link;
 import io.ipstack.net.link.PromiscuousLinkInterface;
+import io.ipstack.net.packet.Address;
+import io.ipstack.net.packet.NetInterface;
+import io.ipstack.net.packet.NetInterfaceListener;
+import io.ipstack.net.packet.Packet;
 
 
 /** It captures all packets passed to a network interface or sent through a link and writes a dump to an output stream.

@@ -26,8 +26,8 @@ import java.util.ArrayList;
 import io.ipstack.net.ip4.Ip4Address;
 import io.ipstack.net.ip4.Ip4Layer;
 import io.ipstack.net.ip4.Ip4Packet;
-import io.ipstack.net.routing.Route;
-import io.ipstack.net.routing.RoutingTable;
+import io.ipstack.net.packet.Route;
+import io.ipstack.net.packet.RoutingTable;
 
 
 /** {@link io.ipstack.net.ip4.Ip4Layer IPv4 layer} that loads network configuration from a configuration file containing linux commands.

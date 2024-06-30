@@ -25,7 +25,6 @@ import java.util.Arrays;
 
 import org.zoolu.util.Bytes;
 
-import io.ipstack.net.base.DataPacket;
 import io.ipstack.net.ip4.Ip4Address;
 import io.ipstack.net.ip4.Ip4Packet;
 import io.ipstack.net.ip4.IpAddress;
@@ -33,6 +32,7 @@ import io.ipstack.net.ip4.SocketAddress;
 import io.ipstack.net.ip4.TransportPacket;
 import io.ipstack.net.ip6.Ip6Address;
 import io.ipstack.net.ip6.Ip6Packet;
+import io.ipstack.net.packet.DataPacket;
 import io.ipstack.net.tcp.option.EndOfListOption;
 import io.ipstack.net.tcp.option.MaximumSegmentSizeOption;
 import io.ipstack.net.tcp.option.NoOperationOption;

@@ -25,8 +25,8 @@ import java.util.Arrays;
 import org.zoolu.util.Bytes;
 import org.zoolu.util.Random;
 
-import io.ipstack.net.base.Address;
 import io.ipstack.net.ip4.Ip4Prefix;
+import io.ipstack.net.packet.Address;
 
 
 /** Ethernet address.

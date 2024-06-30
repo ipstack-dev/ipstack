@@ -27,12 +27,12 @@ import org.zoolu.util.TimerListener;
 import org.zoolu.util.log.DefaultLogger;
 import org.zoolu.util.log.LoggerLevel;
 
-import io.ipstack.net.base.NetInterface;
-import io.ipstack.net.base.NetInterfaceListener;
-import io.ipstack.net.base.Packet;
 import io.ipstack.net.ip4.Ip4Packet;
 import io.ipstack.net.ip4.IpAddress;
 import io.ipstack.net.ip6.Ip6Packet;
+import io.ipstack.net.packet.NetInterface;
+import io.ipstack.net.packet.NetInterfaceListener;
+import io.ipstack.net.packet.Packet;
 
 
 /** Lossy and slow interface.

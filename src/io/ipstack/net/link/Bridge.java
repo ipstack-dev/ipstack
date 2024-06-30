@@ -6,12 +6,12 @@ import java.util.List;
 
 import org.zoolu.util.Clock;
 
-import io.ipstack.net.base.Address;
-import io.ipstack.net.base.NetInterface;
-import io.ipstack.net.base.NetInterfaceListener;
-import io.ipstack.net.base.Packet;
 import io.ipstack.net.link.Link;
 import io.ipstack.net.link.Repeater;
+import io.ipstack.net.packet.Address;
+import io.ipstack.net.packet.NetInterface;
+import io.ipstack.net.packet.NetInterfaceListener;
+import io.ipstack.net.packet.Packet;
 
 
 /** Backward learning bridge.

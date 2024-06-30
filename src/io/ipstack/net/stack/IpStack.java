@@ -26,8 +26,6 @@ import org.zoolu.util.log.DefaultLogger;
 import org.zoolu.util.log.LoggerLevel;
 import org.zoolu.util.log.WriterLogger;
 
-import io.ipstack.net.base.LoopbackInterface;
-import io.ipstack.net.base.NetInterface;
 import io.ipstack.net.ethernet.EthTunnelInterface;
 import io.ipstack.net.ip4.Ip4EthInterface;
 import io.ipstack.net.ip4.Ip4Layer;
@@ -37,6 +35,8 @@ import io.ipstack.net.ip6.Ip6EthInterface;
 import io.ipstack.net.ip6.Ip6Layer;
 import io.ipstack.net.ip6.Ip6Node;
 import io.ipstack.net.ip6.Ip6Packet;
+import io.ipstack.net.packet.LoopbackInterface;
+import io.ipstack.net.packet.NetInterface;
 import io.ipstack.net.tcp.TcpConnection;
 import io.ipstack.net.tcp.TcpLayer;
 import io.ipstack.net.tuntap.Ip4TunInterface;

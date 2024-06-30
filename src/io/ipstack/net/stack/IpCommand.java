@@ -3,7 +3,6 @@ package io.ipstack.net.stack;
 
 import java.io.PrintStream;
 
-import io.ipstack.net.base.NetInterface;
 import io.ipstack.net.ethernet.EthAddress;
 import io.ipstack.net.ethernet.EthTunnelInterface;
 import io.ipstack.net.ip4.Ip4Address;
@@ -15,8 +14,9 @@ import io.ipstack.net.ip4.Ip4Prefix;
 import io.ipstack.net.ip4.SocketAddress;
 import io.ipstack.net.link.Link;
 import io.ipstack.net.link.LinkInterface;
-import io.ipstack.net.routing.Route;
-import io.ipstack.net.routing.RoutingTable;
+import io.ipstack.net.packet.NetInterface;
+import io.ipstack.net.packet.Route;
+import io.ipstack.net.packet.RoutingTable;
 import io.ipstack.net.stack.IpInterfaceUtils;
 import io.ipstack.net.stack.IpStack;
 import io.ipstack.net.stack.Links;

@@ -20,8 +20,8 @@
 package io.ipstack.net.slip;
 
 
-import io.ipstack.net.base.Address;
-import io.ipstack.net.base.DataPacket;
+import io.ipstack.net.packet.Address;
+import io.ipstack.net.packet.DataPacket;
 
 
 /** Address Resolution Protocol (ARP) packet.

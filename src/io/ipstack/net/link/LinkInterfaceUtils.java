@@ -4,11 +4,11 @@ package io.ipstack.net.link;
 import java.util.ArrayList;
 import java.util.List;
 
-import io.ipstack.net.base.Address;
-import io.ipstack.net.base.NetInterface;
-import io.ipstack.net.base.Packet;
 import io.ipstack.net.link.Link;
 import io.ipstack.net.link.LinkInterface;
+import io.ipstack.net.packet.Address;
+import io.ipstack.net.packet.NetInterface;
+import io.ipstack.net.packet.Packet;
 
 
 /** Collects some static methods for dealing with {@link LinkInterface link interfaces}.

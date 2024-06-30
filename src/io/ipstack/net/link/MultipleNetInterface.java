@@ -17,18 +17,16 @@
  * Luca Veltri (luca.veltri@unipr.it)
  */
 
-package io.ipstack.net.base;
+package io.ipstack.net.link;
 
 
 import java.util.ArrayList;
 import java.util.Collection;
 
-import io.ipstack.net.base.Address;
-import io.ipstack.net.base.NetInterface;
-import io.ipstack.net.base.NetInterfaceListener;
-import io.ipstack.net.base.Packet;
-import io.ipstack.net.link.Link;
-import io.ipstack.net.link.PromiscuousLinkInterface;
+import io.ipstack.net.packet.Address;
+import io.ipstack.net.packet.NetInterface;
+import io.ipstack.net.packet.NetInterfaceListener;
+import io.ipstack.net.packet.Packet;
 
 
 /** It listens to different network interfaces and/or links.

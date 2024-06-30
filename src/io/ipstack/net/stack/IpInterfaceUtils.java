@@ -4,7 +4,6 @@ package io.ipstack.net.stack;
 import java.util.ArrayList;
 import java.util.HashSet;
 
-import io.ipstack.net.base.NetInterface;
 import io.ipstack.net.ethernet.EthAddress;
 import io.ipstack.net.ethernet.EthPacket;
 import io.ipstack.net.ethernet.EthTunnelInterface;
@@ -15,6 +14,7 @@ import io.ipstack.net.ip4.Ip4Packet;
 import io.ipstack.net.ip4.Ip4Prefix;
 import io.ipstack.net.ip4.SocketAddress;
 import io.ipstack.net.link.LinkInterface;
+import io.ipstack.net.packet.NetInterface;
 import io.ipstack.net.tuntap.Ip4TuntapInterface;
 
 

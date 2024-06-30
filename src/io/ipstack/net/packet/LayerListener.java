@@ -17,26 +17,20 @@
  * Luca Veltri (luca.veltri@unipr.it)
  */
 
-package io.ipstack.net.ip4;
+
+package io.ipstack.net.packet;
 
 
-import io.ipstack.net.packet.NetAddress;
-
-
-/** IP network prefix.
+/** It listens for incoming packet.
+ * @param <A> the address type
+ * @param <P> the packet type
  */
-public interface IpPrefix extends NetAddress {
-	
-	/** Gets the prefix address.
-	 * @return prefix address */
-	public IpAddress getPrefixAddress();
-	
-	/** Gets the prefix length.
-	 * @return prefix length */
-	public int getPrefixLength();
-	
-	/** Gets the prefix mask.
-	 * @return the prefix mask */
-	public byte[] getPrefixMask();
+@FunctionalInterface
+public interface LayerListener<A extends Address, P extends Packet<A>> {
 
+	/** When a new incoming packet is received.
+	 * @param layer the layer that received the packet
+	 * @param pkt the packet */
+	public void onIncomingPacket(Layer<A,P> layer, P pkt);
+	
 }

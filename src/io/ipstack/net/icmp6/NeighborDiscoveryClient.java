@@ -26,8 +26,6 @@ import org.zoolu.util.log.DefaultLogger;
 import org.zoolu.util.log.LoggerLevel;
 
 import io.ipstack.net.arp.ArpRecord;
-import io.ipstack.net.base.NetInterface;
-import io.ipstack.net.base.NetInterfaceListener;
 import io.ipstack.net.ethernet.EthAddress;
 import io.ipstack.net.icmp6.message.Icmp6NeighborAdvertisementMessage;
 import io.ipstack.net.icmp6.message.Icmp6NeighborSolicitationMessage;
@@ -38,6 +36,8 @@ import io.ipstack.net.ip6.Ip6Address;
 import io.ipstack.net.ip6.Ip6AddressPrefix;
 import io.ipstack.net.ip6.Ip6EthInterface;
 import io.ipstack.net.ip6.Ip6Packet;
+import io.ipstack.net.packet.NetInterface;
+import io.ipstack.net.packet.NetInterfaceListener;
 
 import java.util.Enumeration;
 import java.util.HashSet;

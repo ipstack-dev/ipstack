@@ -3,11 +3,11 @@ package io.ipstack.net.ethernet;
 
 import java.util.List;
 
-import io.ipstack.net.base.NetInterface;
 import io.ipstack.net.ethernet.EthAddress;
 import io.ipstack.net.ethernet.EthPacket;
 import io.ipstack.net.link.Bridge;
 import io.ipstack.net.link.Link;
+import io.ipstack.net.packet.NetInterface;
 
 
 /** Backward learning Ethernet switch.

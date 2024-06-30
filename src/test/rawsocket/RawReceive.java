@@ -25,9 +25,9 @@ import java.util.Calendar;
 
 import org.zoolu.util.Flags;
 
-import io.ipstack.net.base.DataPacket;
 import io.ipstack.net.ip4.Ip4Packet;
 import io.ipstack.net.ip6.Ip6Packet;
+import io.ipstack.net.packet.DataPacket;
 import io.ipstack.net.rawsocket.*;
 
 

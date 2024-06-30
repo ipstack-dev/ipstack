@@ -29,14 +29,14 @@ import org.zoolu.util.log.WriterLogger;
 
 import io.ipstack.net.analyzer.LibpcapHeader;
 import io.ipstack.net.analyzer.LibpcapSniffer;
-import io.ipstack.net.base.NetInterface;
-import io.ipstack.net.base.Node;
 import io.ipstack.net.ip4.Ip4Address;
 import io.ipstack.net.ip4.Ip4AddressPrefix;
 import io.ipstack.net.ip4.Ip4Layer;
 import io.ipstack.net.ip4.Ip4Node;
 import io.ipstack.net.ip4.Ip4Packet;
 import io.ipstack.net.nat.SDestNAT;
+import io.ipstack.net.packet.NetInterface;
+import io.ipstack.net.packet.Node;
 import io.ipstack.net.tuntap.Ip4TunInterface;
 import io.ipstack.net.tuntap.Ip4TuntapInterface;
 

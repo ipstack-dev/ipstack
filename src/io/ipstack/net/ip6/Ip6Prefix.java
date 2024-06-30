@@ -22,8 +22,8 @@ package io.ipstack.net.ip6;
 
 import java.util.Arrays;
 
-import io.ipstack.net.base.Address;
 import io.ipstack.net.ip4.IpPrefix;
+import io.ipstack.net.packet.Address;
 import io.ipstack.net.util.IpAddressUtils;
 
 

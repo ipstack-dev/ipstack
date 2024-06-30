@@ -29,8 +29,8 @@ import java.util.Arrays;
 
 import org.zoolu.util.Bytes;
 
-import io.ipstack.net.base.Address;
 import io.ipstack.net.ip6.Ip6Address;
+import io.ipstack.net.packet.Address;
 
 
 /** A socket address formed by an IP address and a port number.

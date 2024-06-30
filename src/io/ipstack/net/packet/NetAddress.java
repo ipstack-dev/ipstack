@@ -17,20 +17,28 @@
  * Luca Veltri (luca.veltri@unipr.it)
  */
 
+package io.ipstack.net.packet;
 
-package io.ipstack.net.base;
 
 
-/** It listens for incoming packet.
- * @param <A> the address type
- * @param <P> the packet type
+/** Generic network address.
  */
-@FunctionalInterface
-public interface LayerListener<A extends Address, P extends Packet<A>> {
+public interface NetAddress extends Address {
 
-	/** When a new incoming packet is received.
-	 * @param layer the layer that received the packet
-	 * @param pkt the packet */
-	public void onIncomingPacket(Layer<A,P> layer, P pkt);
+	/** Whether a given address matches (belongs to) this network address.
+	 * @param addr the address
+	 * @return <i>true</i> if the given address belongs to this network address; <i>false</i> otherwise */
+	public boolean contains(Address addr);
+
 	
+	@Override
+	public boolean equals(Object o);
+
+	
+	@Override
+	public int hashCode();
+
+	
+	@Override
+	public String toString();
 }

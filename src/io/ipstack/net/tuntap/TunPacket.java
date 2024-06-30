@@ -22,9 +22,9 @@ package io.ipstack.net.tuntap;
 
 import org.zoolu.util.Bytes;
 
-import io.ipstack.net.base.Address;
-import io.ipstack.net.base.DataPacket;
 import io.ipstack.net.ip4.Ip4Packet;
+import io.ipstack.net.packet.Address;
+import io.ipstack.net.packet.DataPacket;
 
 
 /** Linux/Mac OS TUN data unit.

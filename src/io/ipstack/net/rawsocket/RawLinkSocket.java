@@ -24,9 +24,9 @@ import java.net.NetworkInterface;
 import java.net.SocketException;
 import java.util.Enumeration;
 
-import io.ipstack.net.base.DataPacket;
 import io.ipstack.net.ethernet.EthAddress;
 import io.ipstack.net.ethernet.EthPacket;
+import io.ipstack.net.packet.DataPacket;
 
 
 /** It implements a Layer two socket for sending and receiving layer two packets.

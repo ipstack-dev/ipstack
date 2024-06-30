@@ -20,8 +20,8 @@
 package io.ipstack.net.ip4;
 
 
-import io.ipstack.net.base.DataPacket;
 import io.ipstack.net.ethernet.EthPacket;
+import io.ipstack.net.packet.DataPacket;
 import io.ipstack.net.util.Checksum;
 
 

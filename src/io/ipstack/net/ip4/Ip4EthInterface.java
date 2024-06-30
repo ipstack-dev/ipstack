@@ -26,16 +26,16 @@ import org.zoolu.util.log.LoggerLevel;
 import io.ipstack.net.arp.ArpClient;
 import io.ipstack.net.arp.ArpLayer;
 import io.ipstack.net.arp.ArpServer;
-import io.ipstack.net.base.Layer;
-import io.ipstack.net.base.LayerListener;
-import io.ipstack.net.base.NetInterface;
-import io.ipstack.net.base.NetInterfaceListener;
 import io.ipstack.net.ethernet.EthAddress;
 import io.ipstack.net.ethernet.EthLayer;
 import io.ipstack.net.ethernet.EthMulticastAddress;
 import io.ipstack.net.ethernet.EthPacket;
 import io.ipstack.net.link.Link;
 import io.ipstack.net.link.LinkInterface;
+import io.ipstack.net.packet.Layer;
+import io.ipstack.net.packet.LayerListener;
+import io.ipstack.net.packet.NetInterface;
+import io.ipstack.net.packet.NetInterfaceListener;
 
 
 /** IPv4 interface for sending and receiving IPv4 packets through an Ethernet-like layer.

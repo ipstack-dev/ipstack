@@ -20,8 +20,8 @@
 package io.ipstack.net.link;
 
 
-import io.ipstack.net.base.Address;
-import io.ipstack.net.base.Packet;
+import io.ipstack.net.packet.Address;
+import io.ipstack.net.packet.Packet;
 
 
 /** Link interface in promiscuous mode.

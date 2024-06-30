@@ -10,10 +10,10 @@ import java.io.OutputStream;
 import org.zoolu.util.Bytes;
 import org.zoolu.util.DateFormat;
 
-import io.ipstack.net.base.Packet;
 import io.ipstack.net.ethernet.EthPacket;
 import io.ipstack.net.ip4.Ip4Packet;
 import io.ipstack.net.ip6.Ip6Packet;
+import io.ipstack.net.packet.Packet;
 
 
 /** Libpcap Packet Record.

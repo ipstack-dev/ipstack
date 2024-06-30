@@ -20,7 +20,7 @@
 package io.ipstack.net.icmp6.message.option;
 
 
-import io.ipstack.net.base.Address;
+import io.ipstack.net.packet.Address;
 
 
 /** Source Link-Layer option.

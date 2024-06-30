@@ -2,13 +2,13 @@ package io.ipstack.net.link;
 
 import org.zoolu.util.log.DefaultLogger;
 
+import io.ipstack.net.packet.Address;
+import io.ipstack.net.packet.NetInterface;
+import io.ipstack.net.packet.NetInterfaceListener;
+import io.ipstack.net.packet.Packet;
+
 import java.util.Arrays;
 import java.util.List;
-
-import io.ipstack.net.base.Address;
-import io.ipstack.net.base.NetInterface;
-import io.ipstack.net.base.NetInterfaceListener;
-import io.ipstack.net.base.Packet;
 
 
 /** Multiport repeater.
